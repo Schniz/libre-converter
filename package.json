@@ -1,8 +1,8 @@
 {
   "name": "libre-converter",
-  "version": "1.0.2",
-  "description": "libre-convert =============",
-  "main": "index.coffee",
+  "version": "1.0.3",
+  "description": "Converting LibreOffice documents to other formats. like PDF and stuff. yeah.",
+  "main": "./bin/cli",
   "directories": {
     "test": "test"
   },
