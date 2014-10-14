@@ -45,6 +45,6 @@
   },
   "homepage": "https://github.com/Schniz/libre-convert",
   "bin": {
-    "libre-converter": "./bin/server"
+    "libre-converter": "./bin/cli"
   }
 }
