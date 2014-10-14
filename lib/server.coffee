@@ -30,4 +30,4 @@ app.get "/:checksum.pdf", (req, res, goNext) ->
 	return goNext() if not req.params.checksum.match(/[a-z0-9]+/) or not fs.existsSync(path)
 	res.sendFile path
 
-app.listen 6661
+module.exports = app
