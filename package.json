@@ -1,6 +1,6 @@
 {
   "name": "libre-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "libre-convert =============",
   "main": "index.coffee",
   "directories": {
@@ -13,10 +13,10 @@
     "neder": "^0.0.1",
     "node-uuid": "^1.4.1",
     "shelljs": "^0.3.0",
+    "coffee-script": "^1.8.0",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
-    "coffee-script": "^1.8.0",
     "mocha": "^1.21.5",
     "request": "^2.45.0"
   },
