@@ -1,7 +1,7 @@
 {
-  "name": "simple-converter",
+  "name": "libre-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "libre-convert =============",
   "main": "index.coffee",
   "directories": {
     "test": "test"
@@ -23,6 +23,24 @@
   "scripts": {
     "test": "mocha --reporter spec --compilers coffee:coffee-script/register"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Gal Schlezinger",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Schniz/libre-convert.git"
+  },
+  "keywords": [
+    "LibreOffice",
+    "Words",
+    "Presentations",
+    "Sheets",
+    "Excels",
+    "Powerpoint",
+    "Documents",
+    "Conversion"
+  ],
+  "bugs": {
+    "url": "https://github.com/Schniz/libre-convert/issues"
+  },
+  "homepage": "https://github.com/Schniz/libre-convert"
 }
