@@ -21,7 +21,13 @@ node .
 ### For just using this dude
 ```bash
 npm install -g libre-converter
-libre-converter
+libre-converter --port 6661 --hostname 0.0.0.0
+```
+
+and just read the help.
+
+```bash
+libre-converter --help
 ```
 
 Requirements (other than the node's)..
