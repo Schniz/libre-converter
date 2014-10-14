@@ -1,0 +1,28 @@
+{
+  "name": "simple-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.9.2",
+    "checksum": "^0.1.1",
+    "express": "^4.9.7",
+    "neder": "^0.0.1",
+    "node-uuid": "^1.4.1",
+    "shelljs": "^0.3.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "mocha": "^1.21.5",
+    "request": "^2.45.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register"
+  },
+  "author": "",
+  "license": "ISC"
+}
