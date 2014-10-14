@@ -1,5 +1,5 @@
-libre-convert
-=============
+libre-converter
+===============
 
 Convert Word/Excel/Powerpoint to PDFs (or other extensions) via LibreOffice.
 
