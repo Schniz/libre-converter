@@ -10,11 +10,18 @@ You can throw this little code in your VPS and enjoy the freedom of converting d
 
 Installation
 ------------
+### For development
 ```bash
-git clone ...
-cd ...
+git clone https://github.com/Schniz/libre-converter.git
+cd libre-converter
 npm install
 node .
+```
+
+### For just using this dude
+```bash
+npm install -g libre-converter
+libre-converter
 ```
 
 Requirements (other than the node's)..

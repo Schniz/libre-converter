@@ -1,6 +1,6 @@
 {
   "name": "libre-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "libre-convert =============",
   "main": "index.coffee",
   "directories": {
@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/Schniz/libre-convert/issues"
   },
-  "homepage": "https://github.com/Schniz/libre-convert"
+  "homepage": "https://github.com/Schniz/libre-convert",
+	"bin": {
+		"libre-converter": "./bin/server"
+	}
 }
